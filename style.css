@@ -263,3 +263,36 @@ nav ul li a:hover::before{
 .btn{
     display: inline-block;
 }
+
+/*-- HackMIT page --*/
+
+.HackMIT-content{
+    padding-top: 20px;
+}
+
+ul{
+    font-size: 20px;
+}
+
+li{
+    padding: 10px;
+}
+
+i{
+    font-size: 30px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+#About nav ul li a{
+    color: #5d3939;
+    text-decoration: none;
+    font-size: 20px;
+    position: right;
+}
+
+nav ul li i{
+    color:#493939;
+    margin-right: 15px;
+    font-size: 25px;
+}
