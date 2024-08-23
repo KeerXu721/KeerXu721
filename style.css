@@ -73,12 +73,12 @@ nav ul li a:hover::before{
 }
 
 .header-txt h1{
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .header-txt p {
-    padding-top: 20px;
-    font-size: 25px;
+    padding-top: 15px;
+    font-size: 20px;
 }
 
 .header-col-1{
@@ -126,7 +126,7 @@ nav ul li a:hover::before{
 }
 
 .sub-title{
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 600;
     color: black;
 }
@@ -159,14 +159,27 @@ nav ul li a:hover::before{
     width: 100%;
 }
 
+.tab-contents ul li span{
+    color: #9567b5;
+    font-size: 20px;
+}
+
+.tab-contents ul li span p{
+    font-size: 18px;
+}
+
 .tab-contents ul li span a{
     color: #9567b5;
-    font-size: 25px;
+    font-size: 20px;
+}
+
+.tab-contents ul li p{
+    font-size: 15px;
 }
 
 .tab-contents ul li a{
     color: #000000;
-    font-size: 22px;
+    font-size: 15px;
 }
 
 .tab-contents{
@@ -205,25 +218,25 @@ nav ul li a:hover::before{
 }
 
 .Experience-list li span{
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 500;
     margin-bottom: 15px;
 }
 
 .Experience-list p{
     padding-top: 20px;
-    font-size: 22px;
+    font-size: 16px;
     padding-left: 40px;
     line-height: 30px;
     padding-bottom: 20px;
 }
 
 .Experience-list li ul{
-    padding-top: 20px;
-    font-size: 22px;
+    padding-top: 18px;
+    font-size: 16px;
     padding-left: 40px;
-    line-height: 30px;
-    padding-bottom: 20px;
+    line-height: 15px;
+    padding-bottom: 10px;
 }
 
 .Experience-list div a{
