@@ -25,7 +25,7 @@ body{
 }
 
 .container{
-    padding: 10px 10%;
+    padding: 20px 10%;
 }
 
 nav{
@@ -44,7 +44,7 @@ nav ul li{
 nav ul li a{
     color: #493939;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     position: right;
 
 }
@@ -65,7 +65,7 @@ nav ul li a:hover::before{
 }
 
 .header-txt{
-    padding-top: 120px;
+    padding-top: 35px;
     /* align-items: center; */
     display: flex;
     justify-content: space-between;
@@ -73,12 +73,13 @@ nav ul li a:hover::before{
 }
 
 .header-txt h1{
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .header-txt p {
     padding-top: 15px;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 35px;
 }
 
 .header-col-1{
