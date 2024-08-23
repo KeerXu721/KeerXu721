@@ -16,53 +16,118 @@
 						<li><a href="#header">Home</a></li>
 						<li><a href="#About">About</a></li>
 						<li><a href="#Experience">Experience</a></li>
+						<li><a href="#Project">Project</a></li>
 						<li><a href="#contact">Contact</a></li>
 						<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
 					</ul>
 					<i class="fa-solid fa-bars" onclick="openmenu()"></i>
 				</nav>
+				
 				<div class="header-txt">
-					<h1>Hi, I'm Keer Xu<br>Undergraduate Student at Brandeis University</h1>
+					<div class="header-col-1">
+						<h1>Hi, I'm Keer Xu.<br>Welcome to my cozy coding home 🏡.</h1>
+						<br>
+						<p>👩‍💻 I'm a first year graduate student at CMU MIIS (Master of Science in Intelligent Information Systems).</p>
+						<br>
+						<p>📑 I'm still exploring my research interests, but I'm mainly focus on Natural Language Processing and computational linguistics.</p>
+						<br>
+						<p>✍️ My previous researches involve AMR (Abstract Meaning Representation) and UMR (Universal Meaning Representation) annotation, and C-STS (Conditional Semantic Textual Similarity).</p>
+					
+					</div>
+
+					<div class="header-col-2">
+						<img src="/images/cat_code_meme.jpg">
+					</div>
 				</div>
 			</div>
+
 		</div>
+
+
 
 		<!--Education Section-->
 		<div id="About">
 			<div class="container">
 				<div class="row">
 					<div class="Education-col-1">
-						<img src="images/me.jpg">
+						<img src="images/profile photo.jpg">
 					</div>
 					<div class="Education-col-2">
 						<h1 class="sub-title">About Me</h1>
 						<p>
-						Hi, I'm a current Junior Student at Brandeis University. Double Majoring in 
+						Hi, I obtained my Bachelor of Science degree from Brandeis University. Double Majoring in 
 						Computer Science and Applied Mathematics. The courses I took include Data Structures and Algorithm in Java,
 						Theory of Computation, Natural Language Processing, Optimization, and Fourier Analysis. 
 
-						<br><br>I am also an incoming MIIS student at Carnegie Mellon University to pursue a graduate degree and deepen my knowledge in 
+						<br><br>I am also a current MIIS (Master of Science in Intelligent Information Systems) student at Carnegie Mellon University to pursue a graduate degree and deepen my knowledge in 
 						Information Science, Natural Language Processing, Machine Learning and AI. 
 						</p>
 
 						<div class="tab-titles">
-							<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+							<p class="tab-links active-link" onclick="opentab('skills')">Project</p>
 							<p class="tab-links" onclick="opentab('experience')">Experience</p>
+							<p class="tab-links" onclick="opentab('publication')">Publication</p>
 						</div>
 						<div class="tab-contents active-tab" id="skills">
 							<ul>
-								<li><span>Python</span><br>Python<br>Coding language, Data Visualization, Machine Learning Models</li>
-								<li><span>Java</span><br>Coding language and frameworks knowledge</li>
-								<li><span>Figma</span><br>Designing Web/App interfaces</li>
-								<li><span>React Native</span><br>Mobile App development</li>
+								<li><span>🤔 SWiT: Emoji Annotation</span>
+									<br>
+									<br> Designed annotation guideline and trained a model to better understand emoji's connotations.
+									<br><br><a href="#SWit project">Learn More</a>
+									<!-- <br>- Assisting Professor in Problem Solving in Python with over 70 students to enhance student understanding by holding
+									regular office hours and providing mentorship. 
+									<br>- Help professor grade and give feedbacks to students’ homework and programming assignments. 
+									<br>- Holding weekly recitations to answer students’ questions about lectures materials.  -->
+								</li>
+								<li><span>📲  Emoji Generator for Texts</span>
+									<br>
+									<br> Designed a website to automatically generate suitable emojis given context. 
+									<br><br><a href="#Emoji Generator">Learn More</a>
+									<!-- <br>- Assist Professor Pustejovsky’s Lab to complete domain specific AMR (Abstract Meaning Representation) annotation. 
+									<br>- Manually annotate and validate machine generated AMR graphs using AMR-dict and UMR writer. 
+
+									<br>- Design and propose domain specific rules to adopt AMR graphs to suit for recipe data set 
+									
+									<br>- Using Python, spaCy and Flask to process jsonlines file and visualize event trigger and entity spans across sentences. 
+									
+									<br>- Generating GLAMR that incorporates subevent structure for predicates and designating opposition structure for the object undergoing change. -->
+									
+								</li>
+								<li><span>👩‍💻 HackMIT project</span>
+									<br>
+									<br>Audio Digital Signal Processing and Natural Language Processing techniques.
+									<br><br><a href="#HackMIT">Learn More</a>
+								</li>
+								
 							</ul>
 						</div>
 						<div class="tab-contents" id="experience">
 							<ul>
-								<li><span>Jan 2023 - Present</span><br>Undergraduate Teaching Assistant</li>
-								<li><span>Jan 2023 - Present</span><br>Undergraduate Research Assistant</li>
-								<li><span>Oct 2022<br></span>HackMIT 2022</li>
-								<li><span>Mar 2021 - Present</span><br>President of Brandeis Running Club</li>
+								<li><span>Jan 2023 - May 2024</span><br><a href="#TA"><br>👩‍🏫 Undergraduate Teaching Assistant<br></a></li>
+								<li><span>Jan 2023 - May 2024</span><br><a href="#RA"> <br>🥼 Research Assistant<br></a></li>
+								<li><span>Apr 2022 - May 2023</span><br><a href="#Branda"><br>🌐 Member of Branda<br></a></li>
+								<li><span>Mar 2021 - May 2024</span><br><a href="#RunningClub"><br>🏃‍♀️ President of Brandeis Running Club<br></a></li>
+								<!-- <li><span>Oct 2022<br></span><a href="HackMIt.html">HackMIT 2022</a></li>
+								<li><span>Mar 2021 - May 2024</span><br><a href="RunningClub.html">President of Brandeis Running Club</a></li> -->
+							</ul>
+						</div>
+						<div class="tab-contents" id="publication">
+							<ul>
+								<li><span><a href="https://aclanthology.org/2024.acl-long.64/">📓 Linguistically Conditioned Semantic Textual Similarity</a></span>
+									<!-- https://aclanthology.org/2024.acl-long.64/ -->
+									<br><br>Jingxuan Tu, <b>Keer Xu</b>, Liulu Yue, Bingyang Ye, Kyeongmin Rim, James Pustejovsky
+									<br><br>ArXiv 2024: arXiv:2406.03673v1 
+								</li>
+								<li><span><a href="https://aclanthology.org/2024.lrec-main.685/">📝 GLAMR: Augmenting AMR with GL-VerbNet Event Structure</a></span>
+									<!-- https://aclanthology.org/2024.lrec-main.685/ -->
+									<br><br>Jingxuan Tu, Timothy Obiso, Bingyang Ye, Kyeongmin Rim, <b>Keer Xu</b>, Liulu Yue, Susan Windisch Brown, Martha Palmer, James Pustejovsky
+									<br><br>GLAMR: Augmenting AMR with GL-VerbNet Event Structure (Tu et al., LREC-COLING 2024)
+								</li>
+								<li><span><a href="https://aclanthology.org/2024.dmr-1.14/">UMR annotation: Can LLMs help?</a> </span>
+									<!-- https://aclanthology.org/2024.dmr-1.14/ -->
+									<br><br>Haibo Sun, Nianwen Xue, Jin Zhao, Liulu Yue, Yao Sun, <b>Keer Xu</b>, Jiawei Wu
+									<br><br>Chinese UMR annotation: Can LLMs help? (Sun et al., DMR-WS 2024)
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -75,11 +140,54 @@
 			<div class="container">
 				<h1 class="sub-title">My Experience</h1>
 				<div class="Experience-list">
-					<div>
+					<li id="TA"><span>👩‍🏫 Undergraduate Teaching Assistant</span>
+						<ul>
+							<li>Assisting Professor in Problem Solving in Python with over 70 students to enhance student understanding by holding regular office hours and providing mentorship.</li>
+							<li>Help professor grade and give feedbacks to students’ homework and programming assignments.</li>
+							<li>Holding weekly recitations to answer students’ questions about lectures materials.</li>
+						</ul>
+					</li>
+
+					<li id="RA"><span>🥼 Undergraduate Research Assistant</span>
+						<ul>
+							<li>Assist Professor Pustejovsky’s Lab to complete domain specific AMR (Abstract Meaning Representation) annotation.</li>
+							<li>Manually annotate and validate machine generated AMR graphs using AMR-dict and UMR writer.</li>
+							<li>Design and propose domain specific rules to adopt AMR graphs to suit for recipe data set</li>
+							<li>Using Python, spaCy and Flask to process jsonlines file and visualize event trigger and entity spans across sentences.</li>
+							<li>Generating GLAMR that incorporates subevent structure for predicates and designating opposition structure for the object undergoing change.</li>
+						</ul>
+					</li>
+
+					<li id="Branda"><span>🌐 Member of Branda</span>
+						<ul>
+							<li>Collaborated with other team members to develop and optimize existing features of Branda app for Brandeis University</li>
+							<li>Designed new layout of Special Event section for Branda APP that can display Brandeis upcoming events and direct to
+								the relevant website</li>
+							<li>Focusing on Frontend and improved features in the mobile app using Figma and React native</li>
+						</ul>
+					</li>
+
+					<li id="RunningClub"><span>🏃‍♀️ President of Brandeis Running Club</span>
+						<ul>
+							<li>Created Brandeis first Running Club and recruited more than 100 members</li>
+							<li>Organize running events twice a week, manege club’s budget and plan for semester events</li>
+							<li>Managed meetings with e-board members to set goals and stimulate enthusiasm of runners in Brandeis</li>
+						</ul>
+					</li>
+
+				</div>
+				<!-- THE CODE BELOW IS FOR PREVIOUS LAYOUT  -->
+					<!-- <div>
 						<i class="fa-solid fa-code"></i>
 						<h2>HackMIT 2022</h2>
 						<p>Participated in HackMIT 2022 and finished an amazing NLP project with my team members.</p>
 						<a href="HackMIt.html">Learn More</a>
+					</div>
+					<div>
+						<i class="fa-solid fa-book-open-reader"></i>
+						<h2>Undergraduate Research Assistant</h2>
+						<p>Researched AMR and UMR annotations in Professor Pustejovsky's and Professor Xue's labs.</p>
+						<a href="Research.html">Learn More</a>
 					</div>
 					<div>
 						<i class="fa-brands fa-app-store-ios"></i>
@@ -92,17 +200,53 @@
 						<h2>Brandeis Running Club</h2>
 						<p>Co-President of Brandeis first running club</p>
 						<a href="RunningClub.html">Learn More</a>
-					</div>
-				</div>
+					</div> -->
+				<!-- THE CODE ABOVE IS FOR PREVIOUS LAYOUT  -->
 			</div>
 		</div>
 
 		<!-- ----project------ -->
-		<div id="project">
+		<div id="Project">
 			<div class="container">
 				<h1 class="sub-title">My Projects</h1>
 				<div class="Experience-list">
-					<div>
+					<li id="SWit project"><span>🤔 SWiT: Emoji Annotation</span></li>
+						<p>
+							Emojis have surged in popularity every since their invention. People use them to add more emotions to the plain text. 
+
+							<br>However, emojis also have their unique connotation: the same emoji can have completely different meanings depending on the context in which it appears. 
+
+							<br><a href="https://github.com/KeerXu721/SWiT">Our emoji annotation project</a> aims to understand the nuanced connotations of three popular emojis: 
+								
+  									<br><br>1.😭 (loudly crying face)  
+  									<br>2.🥲 (smiling face with tear)  
+  									<br>3.🥺 (face holding back tears)<br>
+							
+
+							<br>We designed the annotation guidelines to annotate the emoji emotions and we ran sklearn’s Logistic Regression model and sklearn’s Naive Bayes model on it to get a baseline. 
+
+						</p>
+					<li id="Emoji Generator"><span>📲  Emoji Generator for Texts</span></li>
+						<p>
+							<a href="https://github.com/yueliulu/COSI217Final">Emoji project</a> again 🥳
+
+							<br>There are tons of emojis, but when we are messaging, it takes forever to find the perfect emoji suited for our text 😫. 
+
+							<br>Our goal is to augment sentences with suitable emojis to imbue it with liveliness and emotion. And we designed a webpage using Streamlit to deploy this functionality 
+
+							<br><br>For example:  
+							<br>Input:  “I like noodles”  
+							<br>Output: ❤️🍜 (suggested emoji by the model)
+						</p>
+					<li id="HackMIT"><span>👩‍💻 HackMIT project</span></li>
+						<p>
+							Collaborated with team members and investigated Audio Digital Signal Professing and Natural Language Processing techniques. 
+							<br>I also <a href="https://www.figma.com/design/lljfLra3smRtgjHKPrHS9D/EduFormer?node-id=0-1">designed a website</a> integrated transcription, summary, and question generation using Figma. 
+							<br>And <a href="https://github.com/Mankeerat/EduFormer">this website</a> can provide functions of audio to text translations, summary generation, and QA generation using transformer, HEPOS, entity highlighting.
+						</p>
+					
+					<!-- THE CODE BELOW IS FOR PREVIOUS LAYOUT  -->
+					<!-- <div>
 						<i class="fa-solid fa-laptop-code"></i>
 						<h2>HackMIT Project</h2>
 						<p>Audio Digital Signal Processing and Natural Language Processing techniques</p>
@@ -119,17 +263,19 @@
 						<h2>Optimization Project</h2>
 						<p>Stochastic Variance Reduced Gradient experiments project</p>
 						<a href="images/[MATH_124A] Final Project Report - Billy Yu, Keer Xu, and Pengqiu Li.pdf" download>Learn More</a>
-					</div>
+					</div> -->
+					<!-- THE CODE ABOVE IS FOR PREVIOUS LAYOUT  -->
 				</div>
 			</div>
 		</div>
+
 		<!-- ----contact------>
 		<div id="contact">
 			<div class="container">
 				<div class="row">
 					<div class="contact-items">
 						<h1 class="sub-title">Contact Me</h1>
-						<p><i class="fa-solid fa-envelope"></i>Email: keerxu@brandeis.edu</p>
+						<p><i class="fa-solid fa-envelope"></i>Email: keerx@andrew.cmu.edu</p>
 						<p><i class="fa-solid fa-phone-volume"></i>Tel: +1 (781)-354-8566</p>
 						<div class="social-icons">
 							<a href="https://www.linkedin.com/in/keer-xu-128352250/"><i class="fa-brands fa-linkedin"></i><p>Linkedin</p></a>

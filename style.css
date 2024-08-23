@@ -11,13 +11,14 @@ html{
 
 body{
     background: #e5e0e0;
-    color: #fff;
+    color: #493939;
+
 }
 
 #header{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url(images/background.JPG);
+    /* background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url(images/background.JPG); */
     background-size: cover;
     background-position: left;
     background-blend-mode: color-burn;
@@ -41,7 +42,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: rgb(255, 255, 255);
+    color: #493939;
     text-decoration: none;
     font-size: 30px;
     position: right;
@@ -65,15 +66,32 @@ nav ul li a:hover::before{
 
 .header-txt{
     padding-top: 120px;
-    align-items: center;
+    /* align-items: center; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .header-txt h1{
-    font-size: 50px;
+    font-size: 70px;
+}
+
+.header-txt p {
+    padding-top: 20px;
+    font-size: 25px;
 }
 
 .header-col-1{
-    flex-basis: 15%;
+    flex-basis: 60%;
+}
+
+.header-col-2{
+    flex-basis: 35%;
+}
+
+.header-col-2 img{
+    width: 100%;
+    border-radius: 15px;
 }
 
 /* ----Education----*/
@@ -101,8 +119,14 @@ nav ul li a:hover::before{
     flex-basis: 60%;
 }
 
-.sub-tile{
-    font-size: 60px;
+.Education-col-2 p{
+    padding-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.sub-title{
+    font-size: 50px;
     font-weight: 600;
     color: black;
 }
@@ -135,9 +159,14 @@ nav ul li a:hover::before{
     width: 100%;
 }
 
-.tab-contents ul li span{
+.tab-contents ul li span a{
     color: #9567b5;
-    font-size: 15px;
+    font-size: 25px;
+}
+
+.tab-contents ul li a{
+    color: #000000;
+    font-size: 22px;
 }
 
 .tab-contents{
@@ -155,7 +184,7 @@ nav ul li a:hover::before{
 }
 
 .Experience-list{
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
@@ -175,15 +204,28 @@ nav ul li a:hover::before{
     margin-bottom: 15px;
 }
 
-.Experience-list div h2{
+.Experience-list li span{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
 }
 
-.Experience-list div p{
-    font-size: 20px;
+.Experience-list p{
+    padding-top: 20px;
+    font-size: 22px;
+    padding-left: 40px;
+    line-height: 30px;
+    padding-bottom: 20px;
 }
+
+.Experience-list li ul{
+    padding-top: 20px;
+    font-size: 22px;
+    padding-left: 40px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
 .Experience-list div a{
     text-decoration: none;
     color:#764e92;
